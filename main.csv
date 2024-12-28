@@ -1,0 +1,10 @@
+Command,Reply
+/start,"Welcome to the Gift Card Store! Use /buy to see available gift cards."
+/buy,"Select a gift card:\n\n1. Amazon $50 - $50 (Reply with /amazon50 to buy)\n2. Google Play $25 - $25 (Reply with /google25 to buy)"
+/amazon50,"You've selected Amazon $50 gift card. Price: $50.\n\n[Click here to pay](https://payment-link.com/amazon50). After payment, use /confirm to receive your code."
+/google25,"You've selected Google Play $25 gift card. Price: $25.\n\n[Click here to pay](https://payment-link.com/google25). After payment, use /confirm to receive your code."
+/confirm,"Thank you for your payment! Please wait while we verify it. Your gift card code will be delivered shortly."
+/help,"Here are the commands you can use:\n/start - Start the bot\n/buy - View available gift cards\n/confirm - Confirm your payment\n/help - Get help"
+/admin,"Admin Commands:\n\n/addcode - Add a new gift card code\n/checkstock - Check available codes"
+/addcode,"Reply with the format: CodeType,Code\nExample: amazon50,ABC123XYZ"
+/checkstock,"Available gift card codes:\nAmazon $50: 10\nGoogle Play $25: 5"
